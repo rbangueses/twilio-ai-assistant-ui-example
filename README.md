@@ -1,6 +1,6 @@
 # Introduction
 
-The purpose of this project is to provide an interface for Twilio AI Assistants for use cases where you want to use Twilio AI Assistants as a GPT-based knowledge base for employees.
+The purpose of this project is to provide an interface for Twilio AI Assistants for use cases where you want to use Twilio AI Assistants as a GPT-based knowledge base for employees or other users with access to a specific email domain.
 
 As a security measure, you can limit access to the chat interface by setting an allowed email domain. 
 
