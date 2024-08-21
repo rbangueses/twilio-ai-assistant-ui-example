@@ -12,16 +12,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How does it look
 
-Login failed
+#### Login failed
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-email-domain.png?raw=true)
 
-Invalid OTP
+#### Invalid OTP
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true)
 
-Chat UI loading
+#### Chat UI loading
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/chat-ui-loading.png)
 
-Chat UI after message
+#### Chat UI after message
 ![alt text](https://raw.githubusercontent.com/rbangueses/twilio-ai-assistant-ui-example/main/images/chat-ui.png)
 
 ## Pre-requirements 
