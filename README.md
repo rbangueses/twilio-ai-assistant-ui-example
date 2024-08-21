@@ -21,7 +21,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <div align="center">
 	<img src="https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true">
 </div>
-![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true)
 
 #### Chat UI loading
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/chat-ui-loading.png)
