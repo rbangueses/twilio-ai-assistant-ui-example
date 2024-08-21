@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import { useState } from 'react';
+import LoginComponent from './components/LoginComponent';
+import OTPComponent from './components/OTPComponent';
+import ChatComponent from './components/ChatComponent';
+import React from 'react';
 
-function App() {
+const App = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [email, setEmail] = useState('');
+  const [isEmailVerified, setIsEmailVerified] = useState(false);
+  const [otp, setOtp] = useState('');
+  const [isOtpVerified, setIsOtpVerified] = useState(false);
+
+  const handleLogin = () => {
+    setIsEmailVerified(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isLoggedIn ? (
+        <ChatComponent email={email} />
+      ) : (
+        <div className='Login'>
+          {!isEmailVerified ? (
+            <LoginComponent email={email} setEmail={setEmail} onLogin={handleLogin} />
+          ) : (
+            <OTPComponent 
+              email={email} 
+              otp={otp} 
+              setOtp={setOtp} 
+              setIsOtpVerified={setIsOtpVerified} 
+              setIsLoggedIn={setIsLoggedIn} 
+            />
+          )}
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default App;

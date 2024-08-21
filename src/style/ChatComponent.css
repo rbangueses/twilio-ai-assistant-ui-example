@@ -1,0 +1,6 @@
+.chat-composer-container {
+    position: sticky;
+    bottom: 0;
+    background-color: white; /* Ensure the background is not transparent */
+    z-index: 1000; /* Ensure it is above other elements */
+}

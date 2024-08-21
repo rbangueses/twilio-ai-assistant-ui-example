@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {Theme} from '@twilio-paste/core/theme';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
-    <App />
+    <Theme.Provider theme="default">
+      <App />
+    </Theme.Provider>
   </React.StrictMode>
 );
 
