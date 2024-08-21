@@ -1,6 +1,8 @@
 # Introduction
 
-This project is an example User Interface for Twilio AI Assistants. As a security measure, you can limit access to the chat interface by setting an allowed email domain. 
+The purpose of this project is to provide an interface for Twilio AI Assistants for use cases where you want to use Twilio AI Assistants as a GPT-based knowledge base for employees.
+
+As a security measure, you can limit access to the chat interface by setting an allowed email domain. 
 
 The main components of this solution are:
 - Twilio Serverless / Functions is used to host the backend and the React-based UI.
@@ -16,6 +18,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-email-domain.png?raw=true)
 
 #### Invalid OTP
+<div align="center">
+	<img src="https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true">
+</div>
 ![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true)
 
 #### Chat UI loading
