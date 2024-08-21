@@ -6,9 +6,25 @@ The main components of this solution are:
 - Twilio Serverless / Functions is used to host the backend and the React-based UI.
 - Twilio Verify is used to send and verify OTPs to the allowed domain email address.
 
+UI built using Twilio Paste.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Pre-requirements 
+## How does it look
+
+Login failed
+![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-email-domain.png?raw=true)
+
+Invalid OTP
+![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/invalid-otp.png?raw=true)
+
+Chat UI loading
+![alt text](https://github.com/rbangueses/twilio-ai-assistant-ui-example/blob/main/images/chat-ui-loading.png)
+
+Chat UI after message
+![alt text](https://raw.githubusercontent.com/rbangueses/twilio-ai-assistant-ui-example/main/images/chat-ui.png)
+
+## Pre-requirements 
 
 In order to deploy this proof of concept you will need to have:
 - A Twilio Account set up
